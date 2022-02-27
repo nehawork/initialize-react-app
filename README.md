@@ -82,3 +82,4 @@ Use JavaScript operators like if or the conditional operator to create elements 
 
 ![](output/state-events-conditional-rendering-1.png)
 ![](output/state-events-conditional-rendering-2.png)
+
