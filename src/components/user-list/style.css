@@ -1,0 +1,13 @@
+.users-wrapper {
+  padding: 32px;
+}
+
+.user-count {
+  color: red;
+}
+
+.visiblity-link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
