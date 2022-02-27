@@ -57,3 +57,28 @@ In the next section, we will introduce a new concept of “state”. State allow
 ### Output:
 
 ![](output/components-props-concept.png)
+
+
+## State
+
+A component needs state when some data associated with it changes over time.
+
+The most important difference between state and props is that props are passed from a parent component, but state is managed by the component itself. A component cannot change its props, but it can change its state.
+
+## Events
+
+Handling events with React elements has some syntactic differences:
+
+- React event handlers are named using camelCase, rather than lowercase.
+- With JSX you pass a function as the event handler, rather than a string.
+
+## Conditional Rendering
+
+Conditional rendering in React works the same way conditions work in JavaScript. 
+
+Use JavaScript operators like if or the conditional operator to create elements representing the current state, and let React update the UI to match them.
+
+### Output:
+
+![](output/state-events-conditional-rendering-1.png)
+![](output/state-events-conditional-rendering-2.png)

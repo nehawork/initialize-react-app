@@ -5,3 +5,9 @@
 .user-count {
   color: red;
 }
+
+.visiblity-link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
