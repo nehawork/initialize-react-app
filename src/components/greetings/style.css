@@ -1,0 +1,15 @@
+.greetings-text {
+  color: blue;
+}
+
+.greetings-wrapper {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 16px 32px;
+  background-color: #ddd;
+  border-bottom: 1px solid black;
+}
+
+.hello-text {
+  color: black;
+}

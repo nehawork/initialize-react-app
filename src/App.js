@@ -1,23 +1,15 @@
+import APP_CONSTANTS from "./app-constants";
 import "./App.css";
+import Greetings from "./components/greetings";
+import UsersList from "./components/user-list";
 
 function App() {
-  const user = {
-    firstName: "Neha",
-    lastName: "Ramchandani",
-  };
-
-  function formatUserName(user) {
-    if (user) {
-      return user.firstName + " " + user.lastName;
-    }
-
-    return "Stranger";
-  }
+  const admin = APP_CONSTANTS.ADMIN_USER;
 
   return (
     <div>
-      <h1 className="greetings">Hello {formatUserName(user)}!</h1>
-      <h1 className="greetings-stranger">Hello {formatUserName()}!</h1>
+      <Greetings user={admin} />
+      <UsersList />
     </div>
   );
 }
